@@ -15,7 +15,7 @@ public class HelloWorld {
 		System.out.println("123456");  // 숫자
 		
 		// " "(쌍따옴표) : 문자열을 나타냄
-		// ==> 안에 작성된 텍스트(코드)는 단순 문자열로 인식
+		// " " 안에 작성된 텍스트(코드)는 단순 문자열로 인식
 		
 		System.out.println("1 + 2");
 		System.out.println(1+2);
@@ -29,6 +29,11 @@ public class HelloWorld {
 		// 문자열과 숫자 or 문자열과 문자열 의 덧셈은 
 		// ==> 이어쓰기
 		System.out.println("14 * 19 =" + 14 * 19);
+		
+		// notice!
+		// 자바는 사직연산의 우선순위를 그대로 따른다.
+		// ex) 우선계산을 원하면 () 괄호 사용
+		System.out.println("안녕? 날 보고있니?");
 	}
 	
 
